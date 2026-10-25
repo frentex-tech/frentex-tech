@@ -12,3 +12,14 @@
 
 /* Frentex enterprise pages */
 .page-intro{padding-top:95px;padding-bottom:64px;max-width:1232px}.page-intro h1{font-size:62px;font-weight:500;line-height:1.35;letter-spacing:-1.7px}.page-intro>p{font-size:21px;max-width:780px}.card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.enterprise-card{padding:34px;border:1px solid #dce7ee;background:linear-gradient(135deg,#ffffffec,#edf5faab);border-radius:28px;box-shadow:0 14px 40px #234d6807;min-width:0}.enterprise-card h2{font-size:27px;letter-spacing:-.5px}.enterprise-card h3{font-size:24px}.enterprise-card p{line-height:1.95}.enterprise-card .text-link{color:#174d75;font-weight:600}.enterprise-cta{background:#e9f2f7;border:1px solid #d6e5ee;padding:50px;border-radius:32px}.process-detail{display:grid;grid-template-columns:1fr;gap:20px;max-width:980px}.prose{max-width:1000px}.phone-link{font-size:27px;color:#173f61}.brand{white-space:nowrap;font-size:23px}.brand small{letter-spacing:2px}.muted{color:#607b90}p{color:#536b7e}input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #347fcc;outline-offset:3px}.brief-note{color:#536b7e}.page-intro h1,.enterprise-card{overflow-wrap:anywhere}.site-footer a:hover{text-decoration:underline}@media(max-width:1000px){.card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}nav{gap:17px}.brand{font-size:20px}}@media(max-width:700px){.card-grid,.detail-grid{grid-template-columns:1fr}.page-intro{padding-top:64px;padding-bottom:32px}.page-intro h1{font-size:40px;letter-spacing:-1px}.page-intro>p{font-size:18px}.enterprise-card{padding:25px}.enterprise-cta{padding:28px}.brand img{width:33px;height:33px}.nav-shell{gap:12px}.phone-link{font-size:23px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+
+/* Production contact and navigation polish */
+html{scroll-padding-top:110px}
+nav a[aria-current="page"]{color:#173f61;text-decoration:underline;text-underline-offset:8px}
+.footer-links{display:flex;gap:18px;flex-wrap:wrap;align-items:center;justify-content:flex-start}
+.contact-email{margin-top:26px;padding-top:24px;border-top:1px solid #d6e5ee;display:grid;gap:8px}
+.contact-email span,.contact-location{color:#536b7e;font-size:14px}
+.contact-email a{font-size:clamp(18px,2vw,24px);color:#173f61;overflow-wrap:anywhere}
+.menu-toggle,.dialog-close{min-width:44px;min-height:44px}
+.filter,.small-button{min-height:44px}
+@media(max-width:700px){nav a{min-height:44px;display:flex;align-items:center}.nav-cta{min-height:44px}.footer-links{gap:12px}.site-footer>div{max-width:100%}.site-footer a{overflow-wrap:anywhere}.filter{font-size:12px}}
