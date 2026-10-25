@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://frentex-tech.github.io/frentex-tech/sitemap.xml
+Sitemap: https://frntextech.com/sitemap.xml
