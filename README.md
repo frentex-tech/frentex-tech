@@ -1,19 +1,41 @@
-# Frentex Tech
-Arabic B2B software company website. Static HTML/CSS/JavaScript.
+# Frentex Tech · Company website
+
+Arabic B2B software solutions website for Frentex Tech, Jeddah, Saudi Arabia.
+
+**Official website:** https://frntextech.com
+**Business enquiries:** INFO@frntextech.com
+**Phone / WhatsApp:** +966 59 200 5751
+**LinkedIn:** https://www.linkedin.com/company/frentex-tech/
+
+## Project
+
+Static HTML, CSS and JavaScript. Includes solution pages, delivery process, company information and interactive demonstration concepts.
+
+Demonstrations use fictional local data; they are not client case studies. This repository does not provide a production backend or a database.
 
 ## Local preview
+
+```sh
 python3 -m http.server 8765
+```
 
-## Deploy
-GitHub Pages: main branch, root directory. Public site: https://frentex-tech.github.io/frentex-tech/
+Open http://localhost:8765. Check desktop and mobile layouts and relevant links before submitting a change.
 
-## Content
-Six solution pages, delivery process, about, contact, privacy, interactive demonstration lab and PDF profile.
-Demos are explicitly fictional/local. No forms transmit data. Phone and WhatsApp links use the business number provided by the owner representative.
-No tracking scripts, remote fonts, credentials or fabricated customer references.
+## Hosting
 
-## Ownership tasks
-Confirmed corporate email and domain, official location and company details, authorized LinkedIn administrator, real case studies with publication permission. Update canonical URLs, sitemap, social image URL and profile links when connecting a domain.
+The official company domain is hosted separately. Publishing a commit to this repository does not by itself confirm a deployment to the external hosting account.
+
+The existing GitHub Pages deployment is a separate preview: https://frentex-tech.github.io/frentex-tech/
+
+## Development workflow
+
+Create a branch, make a focused change, and open a pull request. The Engineering team reviews changes. Include what changed, how it was checked, and any deployment requirements.
+
+- [Contribution guide](https://github.com/frentex-tech/.github/blob/main/CONTRIBUTING.md)
+- [Private security reporting](https://github.com/frentex-tech/.github/blob/main/SECURITY.md)
+
+Keep credentials, hosting keys and customer information out of this public repository.
 
 ## Fonts
-IBM Plex Sans Arabic, OFL license in assets/OFL.txt.
+
+IBM Plex Sans Arabic. OFL license: `assets/OFL.txt`.
